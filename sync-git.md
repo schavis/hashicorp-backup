@@ -1,5 +1,10 @@
 # What is the difference between push, pull, and fetch?
 
+To work with Git, you must keep your local (tracking) branches in sync
+with the remote branches on your repository server. You use the push, pull, and
+fetch commands to control the communication between your local branch and the
+remote branch: 
+
 - `git push` - sent changes from a local branch to a remote repo
 - `git fetch` - get changes from a remote repo into your tracking branch
 - `git pull` - will get changes from a remote branch into your tracking branch and merge them into a local branch
