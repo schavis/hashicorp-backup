@@ -49,7 +49,7 @@ The push command confirms your local branch is tracked on the change control
 server, looks for commits on your local branch that do not exist on the remote
 branch, then pushes the missing changes to the server.
 
-This is how code is shared with a remote
+Pushing changes is how code is shared with a remote
 repository, you can think of it as "make the remote branch resemble my local
 branch".
 
