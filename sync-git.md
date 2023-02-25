@@ -22,12 +22,18 @@ In most cases, `git pull` is easist way to get changes from the server. However,
 if you prefer to review and understand changes before applying them to your
 local branch, use `git fetch` and `git merge`.
 
+### Fetch and merge changes
+
 `git fetch` again takes our
 current branch, and checks to see if there is a tracking branch. If so, it looks
 for changes in the remote branch, and pulls them into the tracking branch. It
 does not change your local branch. To do that, you'll need to do
 `git merge origin/master` (for the "master" branch) to merge those changes into
-your branch - probably also called "master".`git pull` simply does a `git fetch`
+your branch - probably also called "master".
+
+### Pull changes
+
+`git pull` simply does a `git fetch`
 followed immediately by `git merge`.
 
 ## Send information to the server
