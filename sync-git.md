@@ -5,9 +5,11 @@ with the remote branches on your repository server. You use the push, pull, and
 fetch commands to control the communication between your local branch and the
 remote branch: 
 
-- `git push` - sent changes from a local branch to a remote repo
-- `git fetch` - get changes from a remote repo into your tracking branch
-- `git pull` - will get changes from a remote branch into your tracking branch and merge them into a local branch
+- `git push` - send your local changes to the remote branch
+- `git fetch` - get changes from the remote branch
+- `git merge` - apply changes from the remote branch to your local branch
+- `git pull` - get changes from the remote branch **and** apply the changes to
+  your local branch
 
 ## Get information from the server
 
