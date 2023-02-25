@@ -24,12 +24,16 @@ local branch, use `git fetch` and `git merge`.
 
 ### Fetch and merge changes
 
-`git fetch` again takes our
-current branch, and checks to see if there is a tracking branch. If so, it looks
-for changes in the remote branch, and pulls them into the tracking branch. It
-does not change your local branch. To do that, you'll need to do
-`git merge origin/master` (for the "master" branch) to merge those changes into
-your branch - probably also called "master".
+The fetch command confirms you are using a tracked branch, looks for changes in
+the remote branch that do not exist on your local branch, and downloads the
+related commit details **without** modifying your files.
+
+To apply the changes locally, you must pair `git fetch` with `git merge`:
+
+1. Run `git fetch origin BRANCH_NAME` to look for unapplied changes in the
+   remote branch.
+1. Review the list of commits to understand what will change.
+1. Run `git merge origin BRANCH_NAME` to apply the changes.
 
 ### Pull changes
 
