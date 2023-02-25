@@ -50,7 +50,9 @@ current branch, and checks to see whether or not there is a tracking branch for
 a remote repository connected to it. If so, our changes are taken from our
 branch and pushed to the remote branch. This is how code is shared with a remote
 repository, you can think of it as "make the remote branch resemble my local
-branch". This will fail if the remote branch has diverged from your local
+branch".
+
+This will fail if the remote branch has diverged from your local
 branch: if not all the commits in the remote branch are in your local branch.
 When this happens, your local branch needs to be synchronized with the remote
 branch with git pull or git fetch and git merge.
