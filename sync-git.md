@@ -13,9 +13,6 @@ remote branch:
 
 ## Get information from the server
 
-Often `git fetch` and `git pull` are described as equivalent. This isn't entirely
-correct, since under the hood `git pull` does two things.
-
 `git fetch` again takes our
 current branch, and checks to see if there is a tracking branch. If so, it looks
 for changes in the remote branch, and pulls them into the tracking branch. It
