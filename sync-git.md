@@ -45,10 +45,11 @@ To apply remote changes with a single command, run `git pull origin BRANCH_NAME`
 
 ## Send information to the server
 
-`git push` takes our
-current branch, and checks to see whether or not there is a tracking branch for
-a remote repository connected to it. If so, our changes are taken from our
-branch and pushed to the remote branch. This is how code is shared with a remote
+The push command confirms your local branch is tracked on the change control
+server, looks for commits on your local branch that do not exist on the remote
+branch, then pushes the missing changes to the server.
+
+This is how code is shared with a remote
 repository, you can think of it as "make the remote branch resemble my local
 branch".
 
