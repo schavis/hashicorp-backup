@@ -52,6 +52,8 @@ branch, then pushes the missing changes to the server.
 Pushing changes to the server is how you share your code with others. You can
 think of the push command as "make the remote branch look like my local branch".
 
+To push your changes to the remote branch, run `git push`.
+
 > **Warning**
 > Your push will fail if the remote branch has changes that you have not applied
 > to your local branch. To fix the error, sync your local branch with `git pull`
