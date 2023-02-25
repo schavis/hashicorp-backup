@@ -53,5 +53,5 @@ repository, you can think of it as "make the remote branch resemble my local
 branch".
 
 Your push will fail if the remote branch has changes that you have not applied
-to your local branch. When a push fails, your local branch needs to be synchronized with the remote
-branch with git pull or git fetch and git merge.
+to your local branch. To fix the error, sync your local branch with `git pull`
+or `git fetch` and `git merge` then push your changes again.
