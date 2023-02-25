@@ -37,8 +37,11 @@ To apply the changes locally, you must pair `git fetch` with `git merge`:
 
 ### Pull changes
 
-`git pull` simply does a `git fetch`
-followed immediately by `git merge`.
+The pull command also confirms you are using a tracked branch and looks for
+changes in the remote branch. The difference between `git pull` and `git fetch`
+is that `git pull` downloads and applies the related commits in one step.
+
+To apply remote changes automatically, run `git pull origin BRANCH_NAME`.
 
 ## Send information to the server
 
