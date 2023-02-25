@@ -41,7 +41,7 @@ The pull command also confirms you are using a tracked branch and looks for
 changes in the remote branch. The difference between `git pull` and `git fetch`
 is that `git pull` downloads and applies the related commits in one step.
 
-To apply remote changes automatically, run `git pull origin BRANCH_NAME`.
+To apply remote changes with a single command, run `git pull origin BRANCH_NAME`.
 
 ## Send information to the server
 
