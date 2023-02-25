@@ -11,6 +11,11 @@ remote branch:
 - `git pull` - get changes from the remote branch **and** apply the changes to
   your local branch
 
+> **Note**
+> A local branch connected to a remote branch is a **tracking branch**. The
+> push, fetch, merge, and pull commands only work with tracking branches. To
+> create a tracked local branch, use `git branch --track` or `git checkout -b`. 
+
 ## Get information from the server
 
 `git fetch` again takes our
