@@ -49,9 +49,8 @@ The push command confirms your local branch is tracked on the change control
 server, looks for commits on your local branch that do not exist on the remote
 branch, then pushes the missing changes to the server.
 
-Pushing changes is how code is shared with a remote
-repository, you can think of it as "make the remote branch resemble my local
-branch".
+Pushing changes to the server is how you share your code with others. You can
+think of the push command as "make the remote branch look like my local branch".
 
 > **Warning**
 > Your push will fail if the remote branch has changes that you have not applied
